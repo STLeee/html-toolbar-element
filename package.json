@@ -1,8 +1,8 @@
 {
-  "name": "@github/html-toolbar-element",
+  "name": "html-toolbar-element",
   "version": "1.3.2",
   "description": "HTML formatting buttons for text inputs.",
-  "repository": "github/html-toolbar-element",
+  "repository": "https://github.com/STLeee/html-toolbar-element",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
