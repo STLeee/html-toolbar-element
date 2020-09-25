@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "plugin:github/browser",
+    "plugin:github/recommended",
+    "plugin:github/typescript"
+  ],
+  "globals": {
+    "HTMLToolbarElement": "readable",
+    "HTMLHeaderButtonElement": "readable",
+    "HTMLBoldButtonElement": "readable",
+    "HTMLItalicButtonElement": "readable",
+    "HTMLUnderlineButtonElement": "readable",
+    "HTMLStrikethroughButtonElement": "readable",
+    "HTMLCodeButtonElement": "readable",
+    "HTMLLinkButtonElement": "readable"
+  },
+  "overrides": [
+    {
+      "files": "test/**/*.js",
+      "rules": {
+        "github/unescaped-html-literal": "off"
+      }
+    }
+  ]
+}
